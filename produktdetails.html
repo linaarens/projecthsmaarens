@@ -1,0 +1,137 @@
+<!doctype html> 
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+
+<body>
+
+<h1 style="padding-left: 15pt;">produktdetails</h1>
+
+<header>
+    <nav>
+     <ul>
+        <li><a class="active" href="htm.html">home</a></li>
+        <li><a href="produkte.html">produkte</a></li>
+         <li><a href="materialinfos.html">materialinfos</a></li>
+         <li><a href="über uns.html">über uns</a></li>
+         <li><a href="bürozeiten.html">bürozeiten</a></li>
+         <li><a href="impressum.html">impressum</a></li>
+         </ul>
+    </nav>
+ 
+ </header>
+
+<main>
+
+    <h2>nachhaltigkeit</h2>
+<p>alle unsere raketen sind aus 100% nachhaltigem holz gefertigt. ob fichte, <br>
+    zeder oder lärche – wir setzen auf nachwachsende rohstoffe aus verantwortungsvoll<br>
+    bewirtschafteten wäldern. dadurch leisten sie mit ihrer weltraumreise einen beitrag <br>
+    zum umweltschutz und zur förderung nachhaltiger forstwirtschaft.</p>
+
+<h2>handwerkskunst</h2>
+<p>jede rakete ist ein unikat, handgeschnitzt von erfahrenen kunsthandwerkern. <br>
+    die liebe zum detail zeigt sich in den eleganten verzierungen und den perfekt <br>
+    gearbeiteten oberflächen, die jedem modell einen unverwechselbaren charakter verleihen.</p>
+
+<h2>sicherheit und schutz</h2>
+<p>unsere raketen sind mit einer speziellen hitzebeständigen lackierung und harz-beschichtung versehen.<br>
+    diese schützt das holz vor den extremen temperaturen beim start, während des fluges und beim <br>
+    wiedereintritt in die erdatmosphäre. sicherheit geht vor, und wir sorgen dafür, dass ihre reise <br>
+    nicht nur spektakulär, sondern auch sicher ist</p>
+
+<h2>komfort</h2>
+<p>der innenraum aller raketen ist ergonomisch gestaltet und bietet höchsten komfort für die passagiere. <br>
+weiche ledersitze, recycelte glasbullaugen für den blick ins all und ein wohlriechendes Holzambiente <br>
+schaffen eine angenehme atmosphäre, die den flug zu einem unvergesslichen erlebnis macht.</p>
+
+<h2>umweltfreundliche antriebstechnologie</h2>
+<p>unsere raketen verwenden eine innovative, umweltfreundliche antriebstechnologie. <br>
+    während der start kraftvoll und beeindruckend ist, minimieren wir den ökologischen fußabdruck <br>
+    durch emissionsarme treibstoffe und effiziente triebwerke.</p>
+
+<h2>exklusive ausstattung</h2>
+<p>jede rakete ist mit modernster technologie ausgestattet, die navigation, kommunikation und unterhaltung <br>
+    auf höchstem niveau ermöglicht. von interaktiven touchscreens über virtual-reality-erlebnisse <br>
+    bis hin zu luxuriösen annehmlichkeiten – alles ist darauf ausgelegt, ihre reise so angenehm <br>
+    und aufregend wie möglich zu gestalten. </p>
+
+<h2>einzigartiges erlebnis</h2>
+<p>unsere holz-raketen bieten ein unvergleichliches erlebnis, das natur und high-tech <br>
+    auf harmonische weise verbindet. der duft des holzes, das handwerkliche flair und der <br>
+    innovative antrieb machen jede reise zu den sternen zu einem abenteuer der besonderen art. <br>
+    bereiten sie sich darauf vor, in eine neue ära des weltraumtourismus einzutreten – mit stil, <br>
+    nachhaltigkeit und einem hauch von rustikalem charme.</p>
+
+<br>
+<br>
+<br>
+
+<p>sie sind bereit, ihr abenteuer anzutreten? füllen sie dieses kleine kontaktformular aus.</p>
+
+<form action="SENDEADRESSE" id="ft-form" method="POST" accept-charset="UTF-8">
+    <fieldset>
+      <legend>Für Person</legend>
+      <label>
+        Name
+        <input type="text" name="Name" required>
+      </label>
+      <div class="two-cols">
+        <label>
+          E-Mail-Adresse
+          <input type="email" name="E-Mail" required>
+        </label>
+        <label>
+          Telefonnummer
+          <input type="tel" name="Telefon">
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Terminwunsch</legend>
+      <div class="two-cols">
+        <label>
+          Datum
+          <input type="date" name="Terminwunsch" required>
+        </label>
+        <div class="inline">
+          <label>
+            <input type="hidden" name="Vormittags erwünscht" value="Nein">
+            <input type="checkbox" name="Vormittags erwünscht" value="Ja">
+            Vormittags
+          </label>
+          <label>
+            <input type="hidden" name="Nachmittags erwünscht" value="Nein">
+            <input type="checkbox" name="Nachmittags erwünscht" value="Ja">
+            Nachmittags
+          </label>
+        </div>
+      </div>
+      <p>Bestätigung gewünscht per</p>
+      <div class="inline">
+        <label>
+          <input type="radio" name="Terminbestätigung per" value="E-Mail" checked>
+          E-Mail
+        </label>
+        <label>
+          <input type="radio" name="Terminbestätigung per" value="Telefon">
+          Telefon
+        </label>
+      </div>
+    </fieldset>
+    <div class="btns">
+      <input type="text" name="_gotcha" value="" style="display:none;">
+      <input type="submit" value="Anfrage senden">
+    </div>
+  </form>
+
+
+</main>
+
+
+</body>
+
+
+</html>
